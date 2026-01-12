@@ -121,6 +121,7 @@ public class MineSweeper {
         */
         int mineCount = 0;
         // Setup the 8 transforms for row and col (row_tx, col_tx)
+        // These represent the 8 possible directions to check for mines
         int[][] tx = {
             { -1, -1 },
             { -1, 0 },
