@@ -146,6 +146,20 @@ public class MineSweeper {
         return mineCount;
     }
 
+    public String gameState() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Game State:\n");
+        sb.append("Lives: ").append(lives).append("\n");
+        sb.append("Score: ").append(score).append("\n");
+        sb.append("Mines: ").append(numMines).append("\n");
+        return sb.toString();
+    }
+
+    public void showGameState() {
+        System.out.println(gameState());
+    }
+
+    // Helper method to show the game banner
     public static void showBanner(int lives, int score, int numMines) {
         System.out.println();
         System.out.println(" **************************");
