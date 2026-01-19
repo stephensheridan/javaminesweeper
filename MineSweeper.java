@@ -146,6 +146,7 @@ public class MineSweeper {
         return mineCount;
     }
 
+    // AI generated code, just testing
     public String gameState() {
         StringBuilder sb = new StringBuilder();
         sb.append("Game State:\n");
@@ -155,6 +156,7 @@ public class MineSweeper {
         return sb.toString();
     }
 
+    // AI generated code, just testing
     public void showGameState() {
         System.out.println(gameState());
     }
